@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+      <div>
+      <pre>
+            
+           XXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+         XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+       XXXXXXXXXXXXXXXXXX         XXXXXXXX
+      XXXXXXXXXXXXXXXX              XXXXXXX
+      XXXXXXXXXXXXX                   XXXXX
+       XXX     _________ _________     XXX      
+        XX    I  _xxxxx I xxxxx_  I    XX        
+       ( X----I         I         I----X )           
+      ( +I    I      00 I 00      I    I+ )
+       ( I    I    __0  I  0__    I    I )
+        (I    I______ /   \_______I    I)
+         I           ( ___ )           I
+         I    _                    _   I
+          \    \___           ___/    /
+           \_      \_________/      _/
+             \        \___,        /
+               \                 /
+                |\             /|
+                |  \_________/  |  
+      </pre>
+      <center>
+      <button onclick="info()">Hi my names Eric! Do you want to know more?</button>
+      <p id="info"></p>
+    </div>
+
+
+
+
+
+<center>
+    <div id="div1" style="position: absolute; top: 300px; left:800px;">
+    <div id="div2">
+    <h1 id="outputtext"></h1>
+    </div2>
+  <input type="text" id="input" placeholder="Enter text" autocapitalize="off" style="left:400px;"/>
+  <button onclick="f()" type="button" id="submitbutton">send message</button>
+</div>
+</center>
+
+
+
+
+      <br>
+      <br>
+      <br>
+
+
+  <script>
+      var i = 0;
+var txt = 'I just recently broke up with my crazy ex blegHHHHHHH!!!!! She really messed with my poor little heart and now I don’t know if I can ever truly love or trust anyone again. I’m on here looking for a good time and NOTHING ELSE, no strings attached + no EMOTIONS please. Some quick info about me, I’ve never been to therapy, I love making beats, and my favorite drink is a locally sourced IPA! Sorry if I interrupt you I’ve been told I talk too much. If this all gets you going start a conversation with me.';
+var speed = 50;
+      
+function typeWriter() {
+  if (i < txt.length) {
+      document.getElementById("info").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+        }  
+    }
+function info(){
+     typeWriter();
+}
+
+function f() {
+  var t = document.getElementById("input").value;
+  document.getElementById("outputtext").innerHTML = "user: " + t;
+}
+
+
+  </script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,35 @@
+body{
+    background-image: url("silversparkle.gif");
+    background-repeat: repeat;
+    background-color: darkblue;
+}
+pre{
+    background-color: white;
+    color: darkblue;
+  
+}
+
+button{
+    color: darkblue;
+}
+
+p{
+    background-color: white;
+    color: darkblue;
+}
+
+div{
+    width: 30%;
+}
+
+#div1{
+    color:darkblue;
+}
+
+#div2{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    opacity: 70%;
+    color:darkblue;
+}
