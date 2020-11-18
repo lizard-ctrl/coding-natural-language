@@ -2,6 +2,8 @@ body{
     background-image: url("silversparkle.gif");
     background-repeat: repeat;
     background-color: darkblue;
+    font-family: 'Goldman', cursive;
+    text-transform: uppercase;
 }
 pre{
     background-color: white;
@@ -10,6 +12,7 @@ pre{
 }
 
 button{
+    font-family: 'Goldman', cursive;
     color: darkblue;
 }
 
@@ -23,11 +26,14 @@ div{
 }
 
 #div1{
+    font-family: 'Goldman', cursive;
     color:darkblue;
 }
 
 #div2{
-    height: 50px;
+    font-family: 'Goldman', cursive;
+    font-size: smaller;
+    height: 200px;
     width: 200px;
     background-color: white;
     opacity: 70%;
