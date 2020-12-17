@@ -39,6 +39,24 @@ p{
     display: none;
 }
 
+#bottle{
+    position: absolute;
+    top: 10%;
+    left:900px;
+    width: fit-content;
+}
+#beer{
+    position: absolute;
+    top: 30%;
+    left:1050px;
+    width: fit-content;
+}
+#wine{
+    position: absolute;
+    top: 57%;
+    left:900px;
+    width: fit-content;
+}
 
    
    
