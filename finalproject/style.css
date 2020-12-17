@@ -8,7 +8,6 @@ body{
 pre{
     background-color: white;
     color: darkblue;
-  
 }
 
 button{
@@ -21,21 +20,46 @@ p{
     color: darkblue;
 }
 
-div{
-    width: 30%;
+#badboy{
+    width:350px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
 }
 
 #div1{
     font-family: 'Goldman', cursive;
     color:darkblue;
+    position: absolute;
+    top: 4%;
+    left: 440px;
+    width: 350px;
+}
+#talkbutton{
+    display: none;
 }
 
-#div2{
+
+   
+   
+
+
+@media only screen and (max-width: 600px) {
+   #badboy{
+       position: absolute;
+       top: 5%;
+   }
+   #div1{
+       display: none;
+       position: relative;
+       left: 5%;
+   }
+   #talkbutton{
     font-family: 'Goldman', cursive;
-    font-size: smaller;
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    opacity: 70%;
-    color:darkblue;
-}
+    color: darkblue;
+    display: block;
+   }
+  }
+
+
+

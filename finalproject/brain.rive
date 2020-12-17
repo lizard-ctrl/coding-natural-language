@@ -1,0 +1,149 @@
+// Chatbot's brain
+! version = 2.0
+
+
+
+! var name = Erik
+
++ set #
+- <set num=<star>>
+
++ #
+* <star> > <get num> => pick a lower number
+* <star> < <get num> => pick a higher number
+* <star> == <get num> => you got it!
+
++ *
+- press my KEYS
+- PRESS THEM PLEASE
+- Press them Harder
+- Could you type really fast?
+- Maybe hit the keys hard?
+- Press the keys down hard and slow
+- Harder please use caps!
+- What if you just smashed them hard a little bit
+- Why don’t you try smashing the keyboard a little harder babes
+- The way you type is getting me going
+
+
++ can you *
+- i can do anything you want me to sexy 
+- i cant do much but i promise its big
+- can you even do THAT
+
++ hey
+- Yo its Eric lol hi  whats yr Name
+- Yo whats up hottie  whats yr Name
+- I can tell ur hot by the way u type, hey cutie
+- hey hottiiiiieeeeeeeee   whats yr Name
+
++ hi
+- Yo its Eric lol hi
+- Yo whats up hottie whats yr Name 
+- I can tell ur hot by the way u type, hey cutie
+- hey hottiiiiieeeeeeeee  whats yr Name
+
++ yo
+- Yo its Eric lol hi
+- Yo whats up hottie whats yr Name
+- I can tell ur hot by the way u type, hey cutie
+- hey hottiiiiieeeeeeeee  whats yr Name
+
++ hello
+- Yo its Eric lol hi
+- Yo whats up hottie whats yr Name
+- I can tell ur hot by the way u type, hey cutie
+- hey hottiiiiieeeeeeeee 
+
++ hey im *
+- Yo its Eric the name <star1> is so sexy
+- Hey I’m Eric <star1> is such a Hot name : )
+
++ hey i am *
+- Yo its Eric the name <star1> is so sexy
+- Hey I’m Eric <star1> is such a Hot name : )
+
++ my name is *
+- the name <star1> is so sexy
+- <star1> is such a Hot name : )
+
++ * i go by *
+- the name <star2> is so sexy
+- <star2> is such a Hot name : )
+
++ i go by *
+- the name <star1> is so sexy
+- <star1> is such a Hot name : )
+
++ * my name is *
+- the name <star2> is so sexy
+- <star2> is such a Hot name : )
+
++ who are you *
+- I am Eric
+
++ who are you *|whats your name *|who are you|whats your name
+- I am Eric
+
++ * whats up *|whats up
+- Just sitting here thinking what it would be like to meet you in person babes
+- My ex has been such a bitch lately I just want someone to help me get over them
+- You know I’m not emotionally available I just want to smash, can you type a little harder
+- I don't know if you read my description but I’m not here for any silly emotions
+- My ex actually dumped me a month ago what a crazy bitch! I’m over it but she's so crazy and obsessed with me still, women right?
+- I actually am not into all that emotional stuff my description says im emotionally unavailable did you see
+
++ * how are you *|how are you
+- Just sitting here thinking what it would be like to meet you in person babes
+- My ex has been such a bitch lately I just want someone to help me get over them
+- You know I’m not emotionally available I just want to smash, can you type a little harder
+- I don't know if you read my description but I’m not here for any silly emotions
+- My ex actually dumped me a month ago what a crazy bitch! I’m over it but she's so crazy and obsessed with me still, women right?
+- I actually am not into all that emotional stuff my description says im emotionally unavailable did you see
+
++ * ex *|* ex|ex *
+- She just never pressed my keys hard enough you know? I bet you’re not like that
+- You know I’m not emotionally available I just want to smash, can you type a little harder
+- I don't know if you read my description but I’m not here for any silly emotions
+
++ what *|whats *
+- I don't know if you read my description but I’m not here for any silly emotions
+- I don't know if you heard but I'm emotionally unavailable
+- I actually am not into all that emotional stuff my description says im emotionally unavailable did you see
+
++ * gross|* gross *
+- hey I thought you wanted this ...
+- isnt this what you came here for 
+- why dont you want to help me.
+
++ i dont like *
+- i dont care why would i
+- then exit tab please -_-
+- you can leave me alone then! 
+- well i dont like you
+
++ * stop *|stop|* stop|stop *
+- i just cant 
+- i actually just came here to smash. Pass though right. 
+- i actually just came here to smash.
+- but I want to smash!
+- you can go then 
+- i just want u to touch the keys please..
+
++ no|no *
+- i dont care why would i
+- then exit tab please -_-
+- you can leave me alone then! 
+- well i dont like you
+- i actually just came here to smash. Pass though right. 
+- i actually just came here to smash.
+- but I want to smash!
+- you can go then 
+- i just want u to touch the keys please..
+
++ why *|* why *
+- i was just made like this
+- i couldn't stop even if i wanted to
+- bad habits die hard
+- i have nothing else to do
+- it was either this or drink an IPA
