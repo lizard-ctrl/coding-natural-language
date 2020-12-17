@@ -1,0 +1,38 @@
+body{
+    background-color: hotpink;
+    font-family: 'Goldman', cursive;
+    text-transform: uppercase;
+}
+
+button{
+    font-family: 'Goldman', cursive;
+    color: darkblue;
+}
+
+p{
+    background-color: white;
+    color: darkblue;
+}
+
+#div1{
+    font-family: 'Goldman', cursive;
+    color:darkblue;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    width: 700px;
+}
+#talkbutton{
+    display: none;
+}
+
+
+
+   
+   
+
+
+
+
+
+
